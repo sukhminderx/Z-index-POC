@@ -1,0 +1,22 @@
+section {
+  height: 400px;
+  background-color: red;
+  padding: 10px;
+  position: relative;
+  z-index: 99;
+}
+.childOne {
+  height: 200px;
+  width: 600px;
+  background-color: pink;
+  z-index: 999;
+  position: relative;
+}
+.parentTwo {
+  height: 200px;
+  width: 600px;
+  position: relative;
+  background-color: green;
+  top: -300px;
+  z-index: 99;
+}
